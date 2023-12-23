@@ -749,3 +749,158 @@ body {
     word-wrap: break-word;
 }
 
+.sub-eleven {
+    width: 238px;
+    height: 72px;
+    left: 760px;
+    top: 121px;
+    position: absolute;
+}
+
+#sub-eleven-one {
+    width: 238px;
+    height: 48px;
+    left: 0px;
+    top: 24px;
+    position: absolute;
+}
+
+#sub-eleven-one-one {
+    width: 238px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 2px;
+    border: 1px #2EC4B6 solid;
+}
+
+#sub-eleven-one-two {
+    width: 238px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.06;
+    border-radius: 2px;
+    border: 3px #2EC4B6 solid;
+}
+
+#sub-eleven-two {
+    width: 170px;
+    left: 16px;
+    top: 38px;
+    position: absolute;
+    color: #011C34;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+#sub-eleven-three {
+    padding-bottom: 2px;
+    padding-right: 79px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+#first-name {
+    width: 159px;
+    color: #011C34;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 600;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.sub-twelve {
+    width: 500px;
+    height: 48px;
+    left: 760px;
+    top: 631px;
+    position: absolute;
+}
+
+#sub-twelve-one {
+    width: 500px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+#sub-twelve-one-child {
+    width: 500px;
+    height: 48px;
+    background: #2EC4B6;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.10);
+    border-radius: 2px;
+}
+
+#sub-twelve-two {
+    left: 219px;
+    top: 16px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Sofia Pro;
+    font-weight: 600;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+}
+
+.sub-thirteen {
+    left: 778px;
+    top: 695px;
+    position: absolute;
+}
+
+#reg {
+    color: black;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+#terms {
+    color: #2EC4B6;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+#and-our {
+    color: black;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+
+#p-policy {
+    color: #2EC4B6;
+    font-size: 14px;
+    font-family: Sofia Pro;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 25px;
+    word-wrap: break-word;
+}
