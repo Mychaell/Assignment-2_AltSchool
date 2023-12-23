@@ -1,76 +1,202 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Brown', sans-serif; /* You may need to include the appropriate font */
+    font-family: 'Brown', sans-serif;
 }
 
-.container {
+.main-container {
     width: 100%;
     height: 100%;
     position: relative;
     background: white;
 }
 
-.container > div {
-    position: absolute;
-}
-
-.bg-rectangle {
+.sub-one {
     width: 1440px;
     height: 840px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
+    position: absolute;
     opacity: 0.04;
     background: #2EC4B6;
 }
 
-.card-container {
+.sub-two {
     width: 460px;
     height: 275px;
     left: 140px;
     top: 205px;
+    position: absolute;
 }
 
-.card-top {
+#sub-two {
     width: 77.33px;
     height: 80px;
     left: 0px;
     top: 0px;
+    position: absolute;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.10);
 }
 
-.card-top .gray-square {
+#sub-two-one {
     width: 77.35px;
     height: 77.15px;
     left: 0px;
     top: 2.85px;
+    position: absolute;
     opacity: 0.10;
 }
 
-.card-top .gray-square div {
+#sub-two-one-one {
     width: 38.67px;
     height: 38.58px;
+    left: 0px;
+    top: 0px;
     position: absolute;
     opacity: 0.10;
     background: #1E1E1E;
 }
 
-.card-top .colored-square {
+#sub-two-one-two {
+    width: 38.67px;
+    height: 38.58px;
+    left: 38.66px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.10;
+    background: #1E1E1E;
+}
+
+#sub-two-three {
+    width: 38.67px;
+    height: 38.57px;
+    left: 0px;
+    top: 38.58px;
+    position: absolute;
+    opacity: 0.10;
+    background: #1E1E1E;
+}
+
+#sub-two-four {
+    width: 38.67px;
+    height: 38.58px;
+    left: 38.67px;
+    top: 38.57px;
+    position: absolute;
+    opacity: 0.10;
+    background: #1E1E1E;
+}
+
+#sub-two-two {
     width: 77.33px;
     height: 77.17px;
     left: 0px;
     top: 0px;
-}
-
-.card-top .colored-square div {
-    width: 38.67px;
-    height: 38.58px;
     position: absolute;
 }
 
-.text-block {
+#sub-two-two-one {
+    width: 38.67px;
+    height: 38.58px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #F37920;
+}
+
+#sub-two-two-two {
+    width: 38.66px;
+    height: 38.58px;
+    left: 38.67px;
+    top: 0px;
+    position: absolute;
+    background: #3CBDB2;
+}
+
+#sub-two-two-three {
+    width: 38.67px;
+    height: 38.58px;
+    left: 0px;
+    top: 38.58px;
+    position: absolute;
+    background: #FFC624;
+}
+
+#sub-two-three {
+    width: 38.67px;
+    height: 38.58px;
+    left: 38.67px;
+    top: 38.57px;
+    position: absolute;
+    background: #9ECD43;
+}
+
+#sub-two-four {
+    width: 29.33px;
+    height: 38.46px;
+    left: 24px;
+    top: 19.35px;
+    position: absolute;
+}
+
+#sub-two-four-one {
+    width: 3.39px;
+    height: 3.39px;
+    left: 12.97px;
+    top: 0px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-four-two {
+    width: 3.39px;
+    height: 3.39px;
+    left: 12.97px;
+    top: 35.07px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-four-three {
+    width: 13.19px;
+    height: 14.62px;
+    left: 0px;
+    top: 4.61px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-four-four {
+    width: 15.63px;
+    height: 14.62px;
+    left: 0.02px;
+    top: 19.22px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-four-five {
+    width: 15.63px;
+    height: 14.62px;
+    left: 13.68px;
+    top: 4.61px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-four-six {
+    width: 13.19px;
+    height: 14.64px;
+    left: 16.14px;
+    top: 19.24px;
+    position: absolute;
+    background: white;
+}
+
+#sub-two-p-one {
     left: 0px;
     top: 200px;
+    position: absolute;
     color: #737373;
     font-size: 16px;
     font-family: Brown;
@@ -79,9 +205,10 @@ body {
     word-wrap: break-word;
 }
 
-.heading {
+#sub-two-p-two {
     left: 0px;
     top: 130px;
+    position: absolute;
     color: #000B0A;
     font-size: 40px;
     font-family: Brown;
@@ -90,23 +217,29 @@ body {
     word-wrap: break-word;
 }
 
-.form-container {
+#sub-three {
     width: 580px;
     height: 679px;
     left: 720px;
     top: 81px;
+    position: absolute;
     background: white;
     box-shadow: 0px 4px 50px rgba(3.59, 8.13, 19.13, 0.10);
     border-radius: 6px;
 }
 
-.input-group {
-    display: inline-flex;
+#sub-four {
+    width: 500px;
+    height: 72px;
+    left: 760px;
+    top: 529px;
+    position: absolute;
     justify-content: center;
     align-items: center;
+    display: inline-flex;
 }
 
-.input-group label {
+#sub-four-main {
     flex: 1 1 0;
     align-self: stretch;
     flex-direction: column;
@@ -116,7 +249,17 @@ body {
     display: inline-flex;
 }
 
-.input-group .form-input {
+#sub-four-main-one {
+    align-self: stretch;
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 167px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+#sub-four-main-two {
     width: 500px;
     height: 48px;
     position: relative;
@@ -126,20 +269,30 @@ body {
     display: flex;
 }
 
-.input-group .form-input div {
+#password {
+    width: 333px;
+    color: #011C34;
+    font-size: 14px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+#sub-four-main-two-one {
     width: 500px;
     height: 48px;
     border-radius: 2px;
     border: 1px #F0F0F0 solid;
 }
 
-.input-group .form-input .icon {
+#sub-four-main-two-two {
     width: 16px;
     height: 16px;
     position: relative;
 }
 
-.input-group .form-input .icon div {
+#sub-four-main-two-two-child {
     width: 13.33px;
     height: 9.33px;
     left: 1.33px;
@@ -148,47 +301,60 @@ body {
     background: #A6A6A6;
 }
 
-.button-container {
-    width: 500px;
-    height: 48px;
-    left: 760px;
-    top: 631px;
-}
-
-.button-container .button {
-    width: 500px;
-    height: 48px;
-    background: #2EC4B6;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.10);
-    border-radius: 2px;
+#sub-five {
+    width: 238px;
+    height: 72px;
+    left: 1022px;
+    top: 121px;
+    position: absolute;
     justify-content: center;
     align-items: center;
     display: inline-flex;
 }
 
-.button-container .button .text {
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    font-family: Sofia Pro;
-    font-weight: 600;
-    letter-spacing: 0.20px;
-    word-wrap: break-word;
+#sub-five-main {
+    flex: 1 1 0;
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
 }
 
-.terms-text {
-    left: 778px;
-    top: 695px;
-    color: black;
+#sub-five-main-one {
+    align-self: stretch;
+    height: 16px;
+    padding-bottom: 2px;
+    padding-right: 79px;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+#last-name {
+    width: 159px;
+    color: #011C34;
     font-size: 14px;
     font-family: Sofia Pro;
-    font-weight: 400;
-    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 0.10px;
     word-wrap: break-word;
 }
 
-.terms-text span {
-    text-decoration: underline;
-    color: #2EC4B6;
-    font-weight: 500;
+#sub-five-main-two {
+    width: 238px;
+    height: 48px;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+
+#sub-five-main-two-child {
+    width: 238px;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px #F0F0F0 solid;
 }
